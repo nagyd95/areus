@@ -15,6 +15,8 @@ A többi végpont eléréséhez először autentikálnod kell magad a `/login` v
 ### További végpontok: /customer
 - **`/create`**: Új felhasználó létrehozása (POST)
 - **`/getById/{id}`**: Felhasználó lekérdezése ID alapján (GET)
+- **`/getAll`**: Összes Felhasználó lekérdezése (GET)
 - **`/delete/{id}`**: Felhasználó törlése (DELETE)
 - **`/update/{id}`**: Felhasználó frissítése (PUT)
-- **`/averageAge`**: Átlagos életkor lekérdezése (GET)
+- **`/averageAge`**: Átlag életkor lekérdezése (GET)
+- **`/adults`**: Felnött felhasználók lekérdezése (GET)
