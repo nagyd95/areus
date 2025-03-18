@@ -12,7 +12,7 @@ A többi végpont eléréséhez először autentikálnod kell magad a `/login` v
     "username": "yourUsername"
 }
 ```
-### További végpontok
+### További végpontok: /customer
 - **`/create`**: Új felhasználó létrehozása (POST)
 - **`/getById/{id}`**: Felhasználó lekérdezése ID alapján (GET)
 - **`/delete/{id}`**: Felhasználó törlése (DELETE)
